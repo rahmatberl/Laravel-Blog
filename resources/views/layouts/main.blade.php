@@ -11,7 +11,7 @@
     <title>Rahmat Blog</title>
   </head>
   <body>
-    @include('components.navbar')
+    @include('partial.navbar')
     <div  class="container mt-4">
         @yield('container')
     </div>
